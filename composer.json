@@ -1,0 +1,38 @@
+{
+    "name": "laravel-dev-kit/design-patterns",
+    "description": "Design Patterns",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "walshdev",
+            "email": "alexwalsh.dev@gmail.com",
+            "homepage": "https://devclouse.com"
+        }
+    ],
+    "homepage": "https://github.com/laravel-dev-kit/design-patterns",
+    "keywords": ["Laravel", "DesignPatterns"],
+    "require": {
+        "illuminate/support": "~9"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~9.0",
+        "orchestra/testbench": "~7"
+    },
+    "autoload": {
+        "psr-4": {
+            "LaravelDevKit\\DesignPatterns\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "LaravelDevKit\\DesignPatterns\\Tests\\": "tests"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "LaravelDevKit\\DesignPatterns\\ServiceProvider"
+            ]
+        }
+    }
+}
